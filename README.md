@@ -1,42 +1,63 @@
-# sv
+# ⚡ coyak.dev — Portafolio Personal de Angel Gaspar
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+[![SvelteKit](https://img.shields.io/badge/SvelteKit-5-ff3e00?style=for-the-badge&logo=svelte&logoColor=white)](https://kit.svelte.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38b2ac?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![License](https://img.shields.io/badge/License-MIT-d14c03?style=for-the-badge)](LICENSE)
 
-## Creating a project
+> Portafolio profesional de **Angel Gaspar (Coyak)** — Desarrollador Fullstack & Backend especializado en arquitectura backend, infraestructura distribuida y productos web modernos de alto rendimiento.
 
-If you're seeing this, you've probably already done this step. Congrats!
+---
 
-```sh
-# create a new project
-npx sv create my-app
-```
+## 🚀 Proyectos Destacados
 
-To recreate this project with the same configuration:
+### 1. 🪴 [OpenGarden](https://open-garden-pi.vercel.app/)
+* **Descripción**: Plataforma *Digital Garden as a Service* para crear y explorar jardines digitales interconectados mediante grafos de conocimiento interactivos y bidireccionales en tiempo real.
+* **Tech Stack**: SvelteKit, TypeScript, Supabase, D3.js, Tailwind CSS, PostgreSQL.
+* **Demo en Vivo**: [open-garden-pi.vercel.app](https://open-garden-pi.vercel.app/)
 
-```sh
-# recreate this project
-npx sv@0.17.0 create --template minimal --types ts --add tailwindcss="plugins:none" --no-download-check --install npm ./
-```
+### 2. 🍽️ [SaaS Gastronómico](https://gestion-restaurant-xi.vercel.app/)
+* **Descripción**: Solución SaaS *end-to-end* para restaurantes que automatiza comandas de cocina, carta digital en vivo, control de stock y métricas analíticas.
+* **Tech Stack**: React, Node.js, Express, PostgreSQL, Prisma ORM, JWT, Tailwind CSS.
+* **Demo en Vivo**: [gestion-restaurant-xi.vercel.app](https://gestion-restaurant-xi.vercel.app/)
 
-## Developing
+---
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## 🛠️ Tech Stack & Arquitectura
 
-```sh
+* **Frontend**: SvelteKit (Svelte 5 Runes), TypeScript, HTML5, CSS3.
+* **Estilos & UI**: Tailwind CSS v4, Lucide Icons, diseño responsivo optimizado para móvil (390px - 430px).
+* **Efectos Visuales**: Canvas procedural ASCII noise background en tiempo real.
+* **Formulario de Contacto**: Integración AJAX asíncrona en segundo plano con FormSubmit API y fallback directo a correo.
+
+---
+
+## 💻 Desarrollo Local
+
+```bash
+# 1. Clonar el repositorio
+git clone https://github.com/Coyak/coyak.dev.git
+cd coyak.dev
+
+# 2. Instalar dependencias
+npm install
+
+# 3. Iniciar el servidor de desarrollo
 npm run dev
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
+# 4. Compilar para producción
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+---
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## 📬 Contacto & Redes
+
+* **LinkedIn**: [linkedin.com/in/angelbz](https://www.linkedin.com/in/angelbz/)
+* **GitHub**: [github.com/coyak](https://github.com/coyak)
+* **Email**: [ang.bustamantez@gmail.com](mailto:ang.bustamantez@gmail.com)
+* **Sitio Web**: [coyak.dev](https://github.com/Coyak/coyak.dev)
+
+---
+
+© 2026 **Angel Gaspar**. Todos los derechos reservados.
