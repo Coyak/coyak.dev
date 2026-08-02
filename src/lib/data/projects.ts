@@ -1,0 +1,45 @@
+export interface Project {
+	id: string;
+	title: string;
+	subtitle: string;
+	description: string;
+	problemSolved: string;
+	tags: string[];
+	liveUrl?: string;
+	githubUrl?: string;
+	accentColor: string; // hex for highlight border/glow
+	featured: boolean;
+	badge: string;
+	image?: string;
+}
+
+export const PROJECTS: Project[] = [
+	{
+		id: 'opengarden',
+		title: 'OpenGarden',
+		subtitle: 'Digital Garden as a Service',
+		description: 'Plataforma para crear y explorar jardines digitales interconectados mediante grafos de conocimiento interactivos y bidireccionales en tiempo real.',
+		problemSolved: 'Resuelve la fragmentación de notas personales transformándolas en una red visual de conocimiento indexable, colaborativa y exportable.',
+		tags: ['SvelteKit', 'TypeScript', 'Supabase', 'D3.js', 'Tailwind CSS', 'PostgreSQL'],
+		liveUrl: 'https://open-garden-pi.vercel.app/',
+		githubUrl: 'https://github.com/coyak/opengarden',
+		accentColor: '#D14C03',
+		featured: true,
+		badge: 'CORE PROJECT',
+		image: '/open-garden.png'
+	},
+	{
+		id: 'saas-restaurante',
+		title: 'SaaS Gastronómico',
+		subtitle: 'Sistema de Gestión Integral & Pedidos',
+		description: 'Solución SaaS end-to-end para restaurantes que automatiza comandos de cocina, carta digital en vivo, control de stock y métricas analíticas.',
+		problemSolved: 'Elimina cuellos de botella en la atención presencial y pedidos online sincronizando cocina, caja e inventario en milisegundos.',
+		tags: ['React', 'Node.js', 'Express', 'PostgreSQL', 'Prisma', 'JWT', 'Tailwind CSS'],
+		liveUrl: 'https://gestion-restaurant-xi.vercel.app/',
+		githubUrl: 'https://github.com/coyak/resto-saas-platform',
+		accentColor: '#D14C03',
+		featured: true,
+		badge: 'SAAS PLATFORM',
+		image: '/gestion-restaurant.png'
+	}
+];

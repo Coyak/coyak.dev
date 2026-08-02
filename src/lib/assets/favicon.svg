@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="14" fill="#05050a" stroke="#D14C03" stroke-width="4"/>
+  <!-- Bold '>' symbol -->
+  <path d="M 16,18 L 32,32 L 16,46" fill="none" stroke="#D14C03" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Bold '_' cursor -->
+  <line x1="36" y1="46" x2="50" y2="46" stroke="#D14C03" stroke-width="7" stroke-linecap="round"/>
+</svg>
