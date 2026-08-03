@@ -34,11 +34,11 @@
 		</div>
 
 		<!-- Category Filter Tabs Bar (Only the 5 Categories) -->
-		<div class="flex flex-wrap items-center gap-2 mb-8 font-mono text-xs">
+		<div class="flex flex-wrap items-center gap-2 mb-8 font-mono text-xs overflow-x-auto pb-1">
 			{#each STACK_SECTIONS as sec}
 				<button
 					onclick={() => setFilter(sec.title)}
-					class="px-4 py-2.5 rounded-lg border transition-all duration-200 cursor-pointer flex items-center gap-1.5 {
+					class="px-3.5 sm:px-4 py-2.5 rounded-lg border transition-all duration-200 cursor-pointer flex items-center shrink-0 gap-1.5 {
 						activeFilter === sec.title
 							? 'bg-[#D14C03] text-white border-[#D14C03] shadow-[0_0_18px_rgba(209,76,3,0.6)] font-extrabold'
 							: 'bg-[#09090b] text-[#a1a1aa] border-zinc-800 hover:border-[#D14C03] hover:text-white'

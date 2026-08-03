@@ -49,12 +49,12 @@
 		</div>
 
 		<!-- CTA Buttons -->
-		<div class="flex flex-wrap items-center gap-4 pt-10 font-mono">
+		<div class="flex flex-col sm:flex-row items-stretch sm:items-center flex-wrap gap-3 sm:gap-4 pt-8 sm:pt-10 font-mono text-sm">
 			
 			<!-- Ver Proyectos CTA -->
 			<a 
 				href="#proyectos" 
-				class="px-6 py-3.5 rounded-lg bg-[#D14C03] hover:bg-[#e0560a] text-white font-extrabold flex items-center gap-2 shadow-[0_0_24px_rgba(209,76,3,0.6)] hover:shadow-[0_0_36px_rgba(209,76,3,0.85)] transition-all transform hover:-translate-y-0.5 group"
+				class="px-6 py-3.5 rounded-lg bg-[#D14C03] hover:bg-[#e0560a] text-white font-extrabold flex items-center justify-center gap-2 shadow-[0_0_24px_rgba(209,76,3,0.6)] hover:shadow-[0_0_36px_rgba(209,76,3,0.85)] transition-all transform hover:-translate-y-0.5 group"
 			>
 				<span>Ver Proyectos</span>
 				<ArrowUpRight class="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
@@ -65,7 +65,7 @@
 				href={linkedinUrl} 
 				target="_blank" 
 				rel="noopener noreferrer"
-				class="px-5 py-3.5 rounded-lg glass-card border-zinc-800 hover:border-[#D14C03] text-[#f5f5f7] hover:text-[#D14C03] font-medium flex items-center gap-2 transition-all transform hover:-translate-y-0.5"
+				class="px-5 py-3.5 rounded-lg glass-card border-zinc-800 hover:border-[#D14C03] text-[#f5f5f7] hover:text-[#D14C03] font-medium flex items-center justify-center gap-2 transition-all transform hover:-translate-y-0.5"
 			>
 				<LinkedinIcon class="w-4 h-4 text-[#D14C03]" />
 				<span>LinkedIn</span>
@@ -76,7 +76,7 @@
 				href={githubUrl} 
 				target="_blank" 
 				rel="noopener noreferrer"
-				class="px-5 py-3.5 rounded-lg glass-card border-zinc-800 hover:border-[#D14C03] text-[#f5f5f7] hover:text-[#D14C03] font-medium flex items-center gap-2 transition-all transform hover:-translate-y-0.5"
+				class="px-5 py-3.5 rounded-lg glass-card border-zinc-800 hover:border-[#D14C03] text-[#f5f5f7] hover:text-[#D14C03] font-medium flex items-center justify-center gap-2 transition-all transform hover:-translate-y-0.5"
 			>
 				<GithubIcon class="w-4 h-4 text-[#D14C03]" />
 				<span>GitHub</span>
@@ -86,7 +86,7 @@
 			<a 
 				href={cvUrl} 
 				download="cv-angel-gaspar-bustamante.pdf"
-				class="px-5 py-3.5 rounded-lg border border-zinc-800 bg-[#09090b]/80 hover:border-[#D14C03] text-[#a1a1aa] hover:text-white font-medium flex items-center gap-2 transition-all transform hover:-translate-y-0.5"
+				class="px-5 py-3.5 rounded-lg border border-zinc-800 bg-[#09090b]/80 hover:border-[#D14C03] text-[#a1a1aa] hover:text-white font-medium flex items-center justify-center gap-2 transition-all transform hover:-translate-y-0.5"
 			>
 				<Download class="w-4 h-4 text-[#D14C03]" />
 				<span>Descargar CV</span>

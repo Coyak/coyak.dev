@@ -42,21 +42,21 @@
 		<div class="glass-card rounded-2xl border border-zinc-800 overflow-hidden shadow-2xl">
 			
 			<!-- Terminal Header Bar -->
-			<div class="bg-[#09090b] px-4 py-3 border-b border-zinc-800 flex items-center justify-between font-mono text-xs text-[#a1a1aa]">
+			<div class="bg-[#09090b] px-4 py-3 border-b border-zinc-800 flex flex-wrap items-center justify-between gap-2 font-mono text-xs text-[#a1a1aa]">
 				<div class="flex items-center gap-2">
 					<div class="w-3 h-3 rounded-full bg-[#D14C03] shadow-[0_0_8px_#D14C03]"></div>
 					<div class="w-3 h-3 rounded-full bg-zinc-700"></div>
 					<div class="w-3 h-3 rounded-full bg-zinc-800"></div>
-					<span class="ml-2 text-white font-semibold">coyak@terminal: ~/status-now</span>
+					<span class="ml-1 sm:ml-2 text-white font-semibold text-[11px] sm:text-xs">coyak@terminal: ~/status-now</span>
 				</div>
-				<div class="flex items-center gap-2 text-[#D14C03] font-bold">
+				<div class="flex items-center gap-2 text-[#D14C03] font-bold text-[11px] sm:text-xs">
 					<Activity class="w-3.5 h-3.5 animate-pulse" />
 					<span>SYSTEM ACTIVE</span>
 				</div>
 			</div>
 
 			<!-- Terminal Body -->
-			<div class="p-6 sm:p-8 font-mono space-y-6 text-sm bg-[#000000]/95 backdrop-blur-md">
+			<div class="p-4 sm:p-8 font-mono space-y-6 text-sm bg-[#000000]/95 backdrop-blur-md">
 				
 				<!-- Terminal Command Prompt -->
 				<div class="flex items-center gap-2 text-xs text-[#a1a1aa]">
