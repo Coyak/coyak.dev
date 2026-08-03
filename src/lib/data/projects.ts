@@ -36,7 +36,7 @@ export const PROJECTS: Project[] = [
 		problemSolved: 'Elimina cuellos de botella en la atención presencial y pedidos online sincronizando cocina, caja e inventario en milisegundos.',
 		tags: ['React', 'Node.js', 'Express', 'PostgreSQL', 'Prisma', 'JWT', 'Tailwind CSS'],
 		liveUrl: 'https://gestion-restaurant-xi.vercel.app/',
-		githubUrl: 'https://github.com/coyak/resto-saas-platform',
+		githubUrl: 'https://github.com/Coyak/Gestion-Restaurant',
 		accentColor: '#D14C03',
 		featured: true,
 		badge: 'SAAS PLATFORM',

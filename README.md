@@ -20,6 +20,7 @@
 * **Descripción**: Solución SaaS *end-to-end* para restaurantes que automatiza comandas de cocina, carta digital en vivo, control de stock y métricas analíticas.
 * **Tech Stack**: React, Node.js, Express, PostgreSQL, Prisma ORM, JWT, Tailwind CSS.
 * **Demo en Vivo**: [gestion-restaurant-xi.vercel.app](https://gestion-restaurant-xi.vercel.app/)
+* **Repositorio**: [github.com/Coyak/Gestion-Restaurant](https://github.com/Coyak/Gestion-Restaurant)
 
 ---
 
