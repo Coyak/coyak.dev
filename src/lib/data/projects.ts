@@ -15,6 +15,20 @@ export interface Project {
 
 export const PROJECTS: Project[] = [
 	{
+		id: 'open-shop',
+		title: 'OpenShop',
+		subtitle: 'Modern E-Commerce Boilerplate',
+		description: 'Infraestructura de e-commerce de alto rendimiento con catálogo instantáneo a 0ms (SSR), filtrado multicriterio, Wishlist y Checkout interactivo.',
+		problemSolved: 'Elimina la latencia de carga en tiendas online mediante Server Components y almacenamiento en memoria, ofreciendo un flujo completo de compra y panel de usuario.',
+		tags: ['Next.js 14', 'TypeScript', 'Tailwind CSS', 'Zustand', 'Prisma', 'Supabase', 'Vercel'],
+		liveUrl: 'https://open-shop-sic7.vercel.app/',
+		githubUrl: 'https://github.com/Coyak/Open-shop',
+		accentColor: '#D14C03',
+		featured: true,
+		badge: 'E-COMMERCE BOILERPLATE',
+		image: '/open-shop.png'
+	},
+	{
 		id: 'opengarden',
 		title: 'OpenGarden',
 		subtitle: 'Digital Garden as a Service',
