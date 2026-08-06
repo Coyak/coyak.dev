@@ -11,12 +11,18 @@
 
 ## 🚀 Proyectos Destacados
 
-### 1. 🪴 [OpenGarden](https://open-garden-pi.vercel.app/)
+### 1. 🛍️ [OpenShop](https://open-shop-sic7.vercel.app/)
+* **Descripción**: Infraestructura de e-commerce de alto rendimiento con catálogo instantáneo a 0ms (SSR), filtrado multicriterio, Wishlist y Checkout interactivo.
+* **Tech Stack**: Next.js 14, TypeScript, Tailwind CSS, Zustand, Prisma, Supabase, Vercel.
+* **Demo en Vivo**: [open-shop-sic7.vercel.app](https://open-shop-sic7.vercel.app/)
+* **Repositorio**: [github.com/Coyak/Open-shop](https://github.com/Coyak/Open-shop)
+
+### 2. 🪴 [OpenGarden](https://open-garden-pi.vercel.app/)
 * **Descripción**: Plataforma *Digital Garden as a Service* para crear y explorar jardines digitales interconectados mediante grafos de conocimiento interactivos y bidireccionales en tiempo real.
 * **Tech Stack**: SvelteKit, TypeScript, Supabase, D3.js, Tailwind CSS, PostgreSQL.
 * **Demo en Vivo**: [open-garden-pi.vercel.app](https://open-garden-pi.vercel.app/)
 
-### 2. 🍽️ [SaaS Gastronómico](https://gestion-restaurant-xi.vercel.app/)
+### 3. 🍽️ [SaaS Gastronómico](https://gestion-restaurant-xi.vercel.app/)
 * **Descripción**: Solución SaaS *end-to-end* para restaurantes que automatiza comandas de cocina, carta digital en vivo, control de stock y métricas analíticas.
 * **Tech Stack**: React, Node.js, Express, PostgreSQL, Prisma ORM, JWT, Tailwind CSS.
 * **Demo en Vivo**: [gestion-restaurant-xi.vercel.app](https://gestion-restaurant-xi.vercel.app/)
